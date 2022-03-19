@@ -1,0 +1,2484 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Plaxer\n"
+"POT-Creation-Date: 2019-12-18 12:19+0400\n"
+"PO-Revision-Date: 2019-12-18 12:18+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:30
+msgid "Get Back Home"
+msgstr ""
+
+#: comments.php:11
+msgid "reply"
+msgstr ""
+
+#: comments.php:33
+msgid "Comments"
+msgstr ""
+
+#: comments.php:49
+msgid "comments are closed."
+msgstr ""
+
+#: comments.php:77
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:78
+msgid "Your E-mail"
+msgstr ""
+
+#: comments.php:81
+#, php-format
+msgid ""
+"<a href=\"%1$s\" aria-label=\"Logged in as %2$s. Edit your profile.\">Logged "
+"in as %2$s</a> <a href=\"%3$s\" class=\"logout\">Log out</a>"
+msgstr ""
+
+#: comments.php:83
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:84 woocommerce/single-product-reviews.php:72
+msgid "Send it Now"
+msgstr ""
+
+#: comments.php:90
+msgid "Leave a Comment"
+msgstr ""
+
+#: functions.php:12
+msgid "Navigation"
+msgstr ""
+
+#: functions.php:13
+msgid "Side Navigation"
+msgstr ""
+
+#: functions.php:30
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:32 functions.php:41 functions.php:50 functions.php:59
+#: functions.php:68 functions.php:77 functions.php:86
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:39
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:48
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:57
+msgid "Footer col 1"
+msgstr ""
+
+#: functions.php:66
+msgid "Footer col 2"
+msgstr ""
+
+#: functions.php:75
+msgid "Footer col 3"
+msgstr ""
+
+#: functions.php:84
+msgid "Footer col 4"
+msgstr ""
+
+#: inc/acf.php:5
+msgid "Coming Soom Settings"
+msgstr ""
+
+#: inc/acf.php:9
+msgid "Date"
+msgstr ""
+
+#: inc/acf.php:38
+msgid "Page Settings"
+msgstr ""
+
+#: inc/acf.php:42 inc/redux-settings.php:375
+msgid "Header Color Mode"
+msgstr ""
+
+#: inc/acf.php:46 inc/acf.php:61 inc/acf.php:88 inc/acf.php:115 inc/acf.php:147
+#: inc/acf.php:177 inc/acf.php:207 inc/acf.php:251 inc/acf.php:266
+#: inc/acf.php:356 inc/acf.php:483 inc/acf.php:499 inc/acf.php:600
+#: inc/acf.php:625
+msgid "Default"
+msgstr ""
+
+#: inc/acf.php:47 inc/hooks.php:362 inc/redux-settings.php:378
+#: inc/redux-settings.php:937 inc/redux-settings.php:1004
+msgid "Light"
+msgstr ""
+
+#: inc/acf.php:48 inc/redux-settings.php:377 inc/redux-settings.php:938
+#: inc/redux-settings.php:1005
+msgid "Dark"
+msgstr ""
+
+#: inc/acf.php:53
+msgid ""
+"<b>Light</b> - White text color & Dark background color<br><b>Dark</b> - "
+"Black text color & Light background color"
+msgstr ""
+
+#: inc/acf.php:57
+msgid "Header Style"
+msgstr ""
+
+#: inc/acf.php:62
+msgid "Logo on Left"
+msgstr ""
+
+#: inc/acf.php:63
+msgid "Logo on Center"
+msgstr ""
+
+#: inc/acf.php:64
+msgid "Logo on Right"
+msgstr ""
+
+#: inc/acf.php:65 inc/redux-settings.php:400
+msgid "Side"
+msgstr ""
+
+#: inc/acf.php:73 inc/redux-settings.php:467
+msgid "Navigation Type"
+msgstr ""
+
+#: inc/acf.php:89 inc/acf.php:359 inc/redux-settings.php:470
+#: inc/redux-settings.php:1064
+msgid "Disabled"
+msgstr ""
+
+#: inc/acf.php:90 inc/redux-settings.php:474
+msgid "Hidden"
+msgstr ""
+
+#: inc/acf.php:91 inc/redux-settings.php:478
+msgid "Visible"
+msgstr ""
+
+#: inc/acf.php:92
+msgid "Fullscreen"
+msgstr ""
+
+#: inc/acf.php:100 inc/redux-settings.php:500
+msgid "Navigation hover style"
+msgstr ""
+
+#: inc/acf.php:116
+msgid "Style 1"
+msgstr ""
+
+#: inc/acf.php:117
+msgid "Style 2"
+msgstr ""
+
+#: inc/acf.php:118
+msgid "Style 3"
+msgstr ""
+
+#: inc/acf.php:119
+msgid "Style 4"
+msgstr ""
+
+#: inc/acf.php:127 inc/redux-settings.php:365
+msgid "Header Container"
+msgstr ""
+
+#: inc/acf.php:148
+msgid "Center container"
+msgstr ""
+
+#: inc/acf.php:149
+msgid "Full witdh"
+msgstr ""
+
+#: inc/acf.php:157 inc/redux-settings.php:409
+msgid "Cart"
+msgstr ""
+
+#: inc/acf.php:178 inc/acf.php:208 inc/acf.php:252 inc/redux-settings.php:196
+#: inc/redux-settings.php:206 inc/redux-settings.php:216
+#: inc/redux-settings.php:411 inc/redux-settings.php:421
+#: inc/redux-settings.php:799 inc/redux-settings.php:809
+#: inc/redux-settings.php:871 inc/redux-settings.php:1098
+#: inc/redux-settings.php:1108 inc/redux-settings.php:1167
+#: inc/redux-settings.php:1177 inc/redux-settings.php:1187
+#: inc/redux-settings.php:1197 inc/redux-settings.php:1216
+#: inc/redux-settings.php:1236 inc/redux-settings.php:1246
+#: inc/redux-settings.php:1256 inc/redux-settings.php:1266
+#: inc/redux-settings.php:1276
+msgid "Show"
+msgstr ""
+
+#: inc/acf.php:179 inc/acf.php:209 inc/acf.php:253 inc/redux-settings.php:197
+#: inc/redux-settings.php:207 inc/redux-settings.php:217
+#: inc/redux-settings.php:412 inc/redux-settings.php:422
+#: inc/redux-settings.php:800 inc/redux-settings.php:810
+#: inc/redux-settings.php:872 inc/redux-settings.php:1099
+#: inc/redux-settings.php:1109 inc/redux-settings.php:1168
+#: inc/redux-settings.php:1178 inc/redux-settings.php:1188
+#: inc/redux-settings.php:1198 inc/redux-settings.php:1217
+#: inc/redux-settings.php:1237 inc/redux-settings.php:1247
+#: inc/redux-settings.php:1257 inc/redux-settings.php:1267
+#: inc/redux-settings.php:1277
+msgid "Hide"
+msgstr ""
+
+#: inc/acf.php:187 inc/redux-settings.php:419
+msgid "Search"
+msgstr ""
+
+#: inc/acf.php:217
+msgid "Header Space"
+msgstr ""
+
+#: inc/acf.php:221 inc/acf.php:626 inc/redux-settings.php:1127
+msgid "Yes"
+msgstr ""
+
+#: inc/acf.php:222 inc/acf.php:627 inc/redux-settings.php:1128
+msgid "No"
+msgstr ""
+
+#: inc/acf.php:247 inc/redux-settings.php:789 inc/redux-settings.php:797
+msgid "Footer"
+msgstr ""
+
+#: inc/acf.php:254
+msgid "Minified"
+msgstr ""
+
+#: inc/acf.php:262
+msgid "Sidebar Button"
+msgstr ""
+
+#: inc/acf.php:267
+msgid "Disable"
+msgstr ""
+
+#: inc/acf.php:268
+msgid "On Side"
+msgstr ""
+
+#: inc/acf.php:312 inc/acf.php:348
+msgid "Project Settings"
+msgstr ""
+
+#: inc/acf.php:316 inc/acf.php:554
+msgid "Short Description"
+msgstr ""
+
+#: inc/acf.php:352 inc/redux-settings.php:1096
+msgid "Featured Image"
+msgstr ""
+
+#: inc/acf.php:357 inc/redux-settings.php:1062 inc/redux-settings.php:1226
+msgid "Cover"
+msgstr ""
+
+#: inc/acf.php:358 inc/redux-settings.php:185 inc/redux-settings.php:1063
+#: inc/redux-settings.php:1227
+msgid "Original"
+msgstr ""
+
+#: inc/acf.php:367
+msgid "Game"
+msgstr ""
+
+#: inc/acf.php:371
+msgid "Select"
+msgstr ""
+
+#: inc/acf.php:372
+msgid "Battlefield"
+msgstr ""
+
+#: inc/acf.php:373
+msgid "Battlefield 1"
+msgstr ""
+
+#: inc/acf.php:374
+msgid "CS GO"
+msgstr ""
+
+#: inc/acf.php:375
+msgid "Dota 2"
+msgstr ""
+
+#: inc/acf.php:376
+msgid "FIFA"
+msgstr ""
+
+#: inc/acf.php:377
+msgid "Fortnite"
+msgstr ""
+
+#: inc/acf.php:378
+msgid "Halo"
+msgstr ""
+
+#: inc/acf.php:379
+msgid "Hearthstone"
+msgstr ""
+
+#: inc/acf.php:380
+msgid "Mortal Kombat"
+msgstr ""
+
+#: inc/acf.php:381
+msgid "Overwatch"
+msgstr ""
+
+#: inc/acf.php:382
+msgid "Pubg"
+msgstr ""
+
+#: inc/acf.php:383
+msgid "Rainbow 6 Siege"
+msgstr ""
+
+#: inc/acf.php:384
+msgid "The Division"
+msgstr ""
+
+#: inc/acf.php:385
+msgid "World Of Tanks"
+msgstr ""
+
+#: inc/acf.php:386
+msgid "World Of Warcraft"
+msgstr ""
+
+#: inc/acf.php:387
+msgid "World Of Warships"
+msgstr ""
+
+#: inc/acf.php:388
+msgid "Other"
+msgstr ""
+
+#: inc/acf.php:396
+msgid "Game Name"
+msgstr ""
+
+#: inc/acf.php:413
+msgid "Game Logo"
+msgstr ""
+
+#: inc/acf.php:430
+msgid "Video Sourse"
+msgstr ""
+
+#: inc/acf.php:434 inc/redux-settings.php:55
+msgid "None"
+msgstr ""
+
+#: inc/acf.php:435
+msgid "YouTube, Vimeo or MP4 Url"
+msgstr ""
+
+#: inc/acf.php:436
+msgid "Media Library"
+msgstr ""
+
+#: inc/acf.php:444
+msgid "Video url"
+msgstr ""
+
+#: inc/acf.php:461
+msgid "Video"
+msgstr ""
+
+#: inc/acf.php:479
+msgid "Style"
+msgstr ""
+
+#: inc/acf.php:484 inc/redux-settings.php:1073 inc/redux-settings.php:1138
+msgid "Grid"
+msgstr ""
+
+#: inc/acf.php:485 inc/redux-settings.php:1074 inc/redux-settings.php:1137
+msgid "Masonry"
+msgstr ""
+
+#: inc/acf.php:486 inc/redux-settings.php:1075
+msgid "Packery"
+msgstr ""
+
+#: inc/acf.php:487 inc/redux-settings.php:1076
+msgid "Slider"
+msgstr ""
+
+#: inc/acf.php:495
+msgid "Cols count"
+msgstr ""
+
+#: inc/acf.php:500 inc/redux-settings.php:1085
+msgid "1"
+msgstr ""
+
+#: inc/acf.php:501 inc/redux-settings.php:1086
+msgid "2"
+msgstr ""
+
+#: inc/acf.php:502 inc/redux-settings.php:1087
+msgid "3"
+msgstr ""
+
+#: inc/acf.php:503 inc/redux-settings.php:1088
+msgid "4"
+msgstr ""
+
+#: inc/acf.php:550 inc/acf.php:586
+msgid "Post Settings"
+msgstr ""
+
+#: inc/acf.php:590
+msgid "Featured image on top"
+msgstr ""
+
+#: inc/acf.php:596
+msgid "Image position"
+msgstr ""
+
+#: inc/acf.php:601
+msgid "Top"
+msgstr ""
+
+#: inc/acf.php:602
+msgid "Center"
+msgstr ""
+
+#: inc/acf.php:603
+msgid "Bottom"
+msgstr ""
+
+#: inc/acf.php:621
+msgid "Show Featured Image On Single Page"
+msgstr ""
+
+#: inc/hooks.php:18 inc/redux-settings.php:163
+msgid ""
+"<p style=\"text-align: center\"><strong><span style=\"font-size: 18px"
+"\">Content is protected. Right-click function is disabled.</span></strong></"
+"p>"
+msgstr ""
+
+#: inc/hooks.php:19 inc/redux-settings.php:174
+msgid ""
+"This Content Is Password Protected To View It Please Enter Your Password "
+"Below"
+msgstr ""
+
+#: inc/hooks.php:72 inc/redux-settings.php:968
+msgid "#oooops"
+msgstr ""
+
+#: inc/hooks.php:73 inc/redux-settings.php:974
+msgid "404 Error"
+msgstr ""
+
+#: inc/hooks.php:74 inc/redux-settings.php:980
+msgid "You are on a non existing page!"
+msgstr ""
+
+#: inc/hooks.php:79 inc/redux-settings.php:1040
+msgid "#underconstruction"
+msgstr ""
+
+#: inc/hooks.php:80 inc/redux-settings.php:1046
+msgid "Coming Soon"
+msgstr ""
+
+#: inc/hooks.php:81
+msgid "The site is under maintance. Subscribe and get the latest news."
+msgstr ""
+
+#: inc/hooks.php:130 inc/redux-settings.php:1293
+msgid "Load More"
+msgstr ""
+
+#: inc/hooks.php:131 inc/redux-settings.php:1298
+msgid "All"
+msgstr ""
+
+#: inc/hooks.php:132 inc/redux-settings.php:1318
+msgid "open project"
+msgstr ""
+
+#: inc/hooks.php:133 inc/redux-settings.php:1308
+msgid "View Category"
+msgstr ""
+
+#: inc/hooks.php:134
+msgid "Scroll"
+msgstr ""
+
+#: inc/hooks.php:135
+msgid "Purchase"
+msgstr ""
+
+#: inc/hooks.php:136 inc/redux-settings.php:1303
+msgid "Read More"
+msgstr ""
+
+#: inc/hooks.php:137
+msgid "Explore Project"
+msgstr ""
+
+#: inc/hooks.php:138
+msgid "View"
+msgstr ""
+
+#: inc/hooks.php:139
+msgid "Drag"
+msgstr ""
+
+#: inc/hooks.php:140
+msgid "Play"
+msgstr ""
+
+#: inc/hooks.php:141
+msgid "Pause"
+msgstr ""
+
+#: inc/hooks.php:142
+msgid "Scroll Down"
+msgstr ""
+
+#: inc/hooks.php:143 inc/redux-settings.php:1313
+msgid "back to top"
+msgstr ""
+
+#: inc/hooks.php:144 inc/redux-settings.php:1165
+msgid "Zoom"
+msgstr ""
+
+#: inc/hooks.php:145
+msgid "Director"
+msgstr ""
+
+#: inc/hooks.php:146
+msgid "Location"
+msgstr ""
+
+#: inc/hooks.php:147
+msgid "Duration"
+msgstr ""
+
+#: inc/hooks.php:148
+msgid "Year Created"
+msgstr ""
+
+#: inc/hooks.php:149
+msgid "View Full Project"
+msgstr ""
+
+#: inc/hooks.php:150 inc/redux-settings.php:1323
+#: template-parts/content-post.php:63
+msgid "Prev"
+msgstr ""
+
+#: inc/hooks.php:151 inc/redux-settings.php:1328
+#: template-parts/content-post.php:65
+msgid "Next"
+msgstr ""
+
+#: inc/hooks.php:152 inc/redux-settings.php:1333
+msgid "Send"
+msgstr ""
+
+#: inc/hooks.php:348
+msgid "Thin"
+msgstr ""
+
+#: inc/hooks.php:355
+msgid "Extra Light"
+msgstr ""
+
+#: inc/hooks.php:369
+msgid "Regular"
+msgstr ""
+
+#: inc/hooks.php:376
+msgid "Medium"
+msgstr ""
+
+#: inc/hooks.php:383
+msgid "Semibold"
+msgstr ""
+
+#: inc/hooks.php:390
+msgid "Bold"
+msgstr ""
+
+#: inc/hooks.php:397
+msgid "Extra Bold"
+msgstr ""
+
+#: inc/hooks.php:404
+msgid "Black"
+msgstr ""
+
+#: inc/hooks.php:411
+msgid "Uppercase"
+msgstr ""
+
+#: inc/hooks.php:418
+msgid "Lowercase"
+msgstr ""
+
+#: inc/hooks.php:425
+msgid "Button Style 1"
+msgstr ""
+
+#: inc/hooks.php:431
+msgid "Button Style 2"
+msgstr ""
+
+#: inc/hooks.php:498
+msgid "Type the password"
+msgstr ""
+
+#: inc/hooks.php:726 inc/hooks.php:727 inc/redux-settings.php:56
+msgid "500px"
+msgstr ""
+
+#: inc/hooks.php:731 inc/redux-settings.php:57
+msgid "Amazon"
+msgstr ""
+
+#: inc/hooks.php:732
+msgid "az"
+msgstr ""
+
+#: inc/hooks.php:736 inc/redux-settings.php:58
+msgid "App Store"
+msgstr ""
+
+#: inc/hooks.php:737
+msgid "as"
+msgstr ""
+
+#: inc/hooks.php:741 inc/redux-settings.php:59
+msgid "Behance"
+msgstr ""
+
+#: inc/hooks.php:742
+msgid "bh"
+msgstr ""
+
+#: inc/hooks.php:746 inc/redux-settings.php:60
+msgid "Blogger"
+msgstr ""
+
+#: inc/hooks.php:747
+msgid "bg"
+msgstr ""
+
+#: inc/hooks.php:751 inc/redux-settings.php:61
+msgid "Codepen"
+msgstr ""
+
+#: inc/hooks.php:752
+msgid "cp"
+msgstr ""
+
+#: inc/hooks.php:756 inc/redux-settings.php:62
+msgid "Digg"
+msgstr ""
+
+#: inc/hooks.php:757
+msgid "dg"
+msgstr ""
+
+#: inc/hooks.php:761 inc/redux-settings.php:63
+msgid "Dribbble"
+msgstr ""
+
+#: inc/hooks.php:762 inc/hooks.php:767
+msgid "db"
+msgstr ""
+
+#: inc/hooks.php:766 inc/redux-settings.php:64
+msgid "Dropbox"
+msgstr ""
+
+#: inc/hooks.php:771 inc/redux-settings.php:65
+msgid "Ebay"
+msgstr ""
+
+#: inc/hooks.php:772
+msgid "eb"
+msgstr ""
+
+#: inc/hooks.php:776 inc/redux-settings.php:66
+msgid "Facebook"
+msgstr ""
+
+#: inc/hooks.php:777
+msgid "fb"
+msgstr ""
+
+#: inc/hooks.php:781 inc/redux-settings.php:67
+msgid "Flickr"
+msgstr ""
+
+#: inc/hooks.php:782
+msgid "fl"
+msgstr ""
+
+#: inc/hooks.php:786 inc/redux-settings.php:68
+msgid "Foursquare"
+msgstr ""
+
+#: inc/hooks.php:787
+msgid "fs"
+msgstr ""
+
+#: inc/hooks.php:791 inc/redux-settings.php:69
+msgid "GitHub"
+msgstr ""
+
+#: inc/hooks.php:792
+msgid "gh"
+msgstr ""
+
+#: inc/hooks.php:796 inc/redux-settings.php:70
+msgid "Google Plus"
+msgstr ""
+
+#: inc/hooks.php:797
+msgid "gp"
+msgstr ""
+
+#: inc/hooks.php:801 inc/redux-settings.php:71
+msgid "Instagram"
+msgstr ""
+
+#: inc/hooks.php:802
+msgid "in"
+msgstr ""
+
+#: inc/hooks.php:806 inc/redux-settings.php:72
+msgid "Itunes"
+msgstr ""
+
+#: inc/hooks.php:807
+msgid "it"
+msgstr ""
+
+#: inc/hooks.php:811 inc/redux-settings.php:73
+msgid "Kickstarter"
+msgstr ""
+
+#: inc/hooks.php:812
+msgid "ks"
+msgstr ""
+
+#: inc/hooks.php:816 inc/redux-settings.php:74
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/hooks.php:817
+msgid "li"
+msgstr ""
+
+#: inc/hooks.php:821 inc/redux-settings.php:75
+msgid "Mailchimp"
+msgstr ""
+
+#: inc/hooks.php:822 inc/hooks.php:827
+msgid "mc"
+msgstr ""
+
+#: inc/hooks.php:826 inc/redux-settings.php:76
+msgid "MixCloud"
+msgstr ""
+
+#: inc/hooks.php:831 inc/redux-settings.php:77
+msgid "Windows"
+msgstr ""
+
+#: inc/hooks.php:832
+msgid "wd"
+msgstr ""
+
+#: inc/hooks.php:836 inc/redux-settings.php:78
+msgid "Odnoklassniki"
+msgstr ""
+
+#: inc/hooks.php:837
+msgid "od"
+msgstr ""
+
+#: inc/hooks.php:841 inc/redux-settings.php:79
+msgid "PayPal"
+msgstr ""
+
+#: inc/hooks.php:842
+msgid "pp"
+msgstr ""
+
+#: inc/hooks.php:846 inc/redux-settings.php:80
+msgid "Periscope"
+msgstr ""
+
+#: inc/hooks.php:847
+msgid "ps"
+msgstr ""
+
+#: inc/hooks.php:851 inc/redux-settings.php:81
+msgid "OpenID"
+msgstr ""
+
+#: inc/hooks.php:852
+msgid "oi"
+msgstr ""
+
+#: inc/hooks.php:856 inc/redux-settings.php:82
+msgid "Pinterest"
+msgstr ""
+
+#: inc/hooks.php:857
+msgid "pr"
+msgstr ""
+
+#: inc/hooks.php:861 inc/redux-settings.php:83
+msgid "Reddit"
+msgstr ""
+
+#: inc/hooks.php:862
+msgid "rd"
+msgstr ""
+
+#: inc/hooks.php:866 inc/redux-settings.php:84
+msgid "Skype"
+msgstr ""
+
+#: inc/hooks.php:867
+msgid "sk"
+msgstr ""
+
+#: inc/hooks.php:871 inc/redux-settings.php:85
+msgid "Snapchat"
+msgstr ""
+
+#: inc/hooks.php:872 inc/hooks.php:877
+msgid "sc"
+msgstr ""
+
+#: inc/hooks.php:876 inc/redux-settings.php:86
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/hooks.php:881 inc/redux-settings.php:87
+msgid "Spotify"
+msgstr ""
+
+#: inc/hooks.php:882
+msgid "sp"
+msgstr ""
+
+#: inc/hooks.php:886 inc/redux-settings.php:88
+msgid "Stack Overflow"
+msgstr ""
+
+#: inc/hooks.php:887
+msgid "so"
+msgstr ""
+
+#: inc/hooks.php:891 inc/redux-settings.php:89
+msgid "Steam"
+msgstr ""
+
+#: inc/hooks.php:892 inc/hooks.php:897
+msgid "st"
+msgstr ""
+
+#: inc/hooks.php:896 inc/redux-settings.php:90
+msgid "Stripe"
+msgstr ""
+
+#: inc/hooks.php:901 inc/redux-settings.php:91
+msgid "Telegram"
+msgstr ""
+
+#: inc/hooks.php:902
+msgid "tl"
+msgstr ""
+
+#: inc/hooks.php:906 inc/redux-settings.php:92
+msgid "Tumblr"
+msgstr ""
+
+#: inc/hooks.php:907
+msgid "tu"
+msgstr ""
+
+#: inc/hooks.php:911 inc/redux-settings.php:93
+msgid "Twitter"
+msgstr ""
+
+#: inc/hooks.php:912 inc/hooks.php:917
+msgid "tw"
+msgstr ""
+
+#: inc/hooks.php:916 inc/redux-settings.php:94
+msgid "Twitch"
+msgstr ""
+
+#: inc/hooks.php:921 inc/redux-settings.php:95
+msgid "Viber"
+msgstr ""
+
+#: inc/hooks.php:922 inc/hooks.php:927
+msgid "vi"
+msgstr ""
+
+#: inc/hooks.php:926 inc/redux-settings.php:96
+msgid "Vimeo"
+msgstr ""
+
+#: inc/hooks.php:931 inc/redux-settings.php:97
+msgid "VK"
+msgstr ""
+
+#: inc/hooks.php:932
+msgid "vk"
+msgstr ""
+
+#: inc/hooks.php:936 inc/redux-settings.php:98
+msgid "Whatsapp"
+msgstr ""
+
+#: inc/hooks.php:937
+msgid "wa"
+msgstr ""
+
+#: inc/hooks.php:941 inc/redux-settings.php:99
+msgid "Yahoo"
+msgstr ""
+
+#: inc/hooks.php:942
+msgid "ya"
+msgstr ""
+
+#: inc/hooks.php:946 inc/redux-settings.php:100
+msgid "Yelp"
+msgstr ""
+
+#: inc/hooks.php:947
+msgid "ye"
+msgstr ""
+
+#: inc/hooks.php:951 inc/redux-settings.php:101
+msgid "Yoast"
+msgstr ""
+
+#: inc/hooks.php:952
+msgid "yo"
+msgstr ""
+
+#: inc/hooks.php:956 inc/redux-settings.php:102
+msgid "YouTube"
+msgstr ""
+
+#: inc/hooks.php:957
+msgid "yt"
+msgstr ""
+
+#: inc/hooks.php:1138
+msgid "Demo Content"
+msgstr ""
+
+#: inc/hooks.php:1191
+msgid "Font Family:"
+msgstr ""
+
+#: inc/hooks.php:1192
+msgid "Font Weights:"
+msgstr ""
+
+#: inc/hooks.php:1193
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr ""
+
+#: inc/hooks.php:1198 inc/hooks.php:1330
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/hooks.php:1228
+msgid "Home"
+msgstr ""
+
+#: inc/hooks.php:1302 inc/hooks.php:1320
+msgid "win"
+msgstr ""
+
+#: inc/hooks.php:1309
+msgid "vs"
+msgstr ""
+
+#: inc/hooks.php:1334
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/redux-settings.php:18 inc/redux-settings.php:19
+msgid "Theme Options"
+msgstr ""
+
+#: inc/redux-settings.php:108
+msgid "General"
+msgstr ""
+
+#: inc/redux-settings.php:116
+msgid "Accent Color"
+msgstr ""
+
+#: inc/redux-settings.php:134
+msgid "Accent Color 2"
+msgstr ""
+
+#: inc/redux-settings.php:152
+msgid "Right Click Disable"
+msgstr ""
+
+#: inc/redux-settings.php:154 inc/redux-settings.php:235
+msgid "On"
+msgstr ""
+
+#: inc/redux-settings.php:155 inc/redux-settings.php:236
+msgid "Off"
+msgstr ""
+
+#: inc/redux-settings.php:162
+msgid "Right Click Message"
+msgstr ""
+
+#: inc/redux-settings.php:173
+msgid "Protected Page Message"
+msgstr ""
+
+#: inc/redux-settings.php:183
+msgid "Mobile Adaptation"
+msgstr ""
+
+#: inc/redux-settings.php:186
+msgid "Cropped"
+msgstr ""
+
+#: inc/redux-settings.php:193
+msgid "Category Prefix"
+msgstr ""
+
+#: inc/redux-settings.php:194
+msgid ""
+"Show/Hide Category prefix.<br><b>Example:</b><br><b>If Show -</b> Category: "
+"Lifestyle<br><b>If Hide -</b> Lifestyle"
+msgstr ""
+
+#: inc/redux-settings.php:204
+msgid "Image Download Link On Popup"
+msgstr ""
+
+#: inc/redux-settings.php:214
+msgid "Custom Cursor"
+msgstr ""
+
+#: inc/redux-settings.php:225 inc/redux-settings.php:233
+msgid "Preloader"
+msgstr ""
+
+#: inc/redux-settings.php:243
+msgid "Preloader Type"
+msgstr ""
+
+#: inc/redux-settings.php:245
+msgid "Cube"
+msgstr ""
+
+#: inc/redux-settings.php:246
+msgid "Custom Image"
+msgstr ""
+
+#: inc/redux-settings.php:254
+msgid "Preloader Words"
+msgstr ""
+
+#: inc/redux-settings.php:260
+msgid "Preloader Background Color"
+msgstr ""
+
+#: inc/redux-settings.php:269
+msgid "Preloader Color"
+msgstr ""
+
+#: inc/redux-settings.php:278
+msgid "Prelaoder Image"
+msgstr ""
+
+#: inc/redux-settings.php:279
+msgid "Choose A Default Logo Image To Display"
+msgstr ""
+
+#: inc/redux-settings.php:295
+msgid "Logo"
+msgstr ""
+
+#: inc/redux-settings.php:303
+msgid "Logo Text"
+msgstr ""
+
+#: inc/redux-settings.php:308
+msgid "Logo Image Light"
+msgstr ""
+
+#: inc/redux-settings.php:309
+msgid "Choose A Logo Image To Display For Light Header Skin"
+msgstr ""
+
+#: inc/redux-settings.php:323
+msgid "Logo Image Dark"
+msgstr ""
+
+#: inc/redux-settings.php:324
+msgid "Choose A Logo Image To Display For Dark Header Skin"
+msgstr ""
+
+#: inc/redux-settings.php:340
+msgid "Logo Max Width"
+msgstr ""
+
+#: inc/redux-settings.php:349 inc/redux-settings.php:861
+msgid "Mobile Logo Size"
+msgstr ""
+
+#: inc/redux-settings.php:357
+msgid "Header"
+msgstr ""
+
+#: inc/redux-settings.php:367
+msgid "Center Container"
+msgstr ""
+
+#: inc/redux-settings.php:368
+msgid "Full Witdh"
+msgstr ""
+
+#: inc/redux-settings.php:385
+msgid "Header Type"
+msgstr ""
+
+#: inc/redux-settings.php:388
+msgid "Logo Left"
+msgstr ""
+
+#: inc/redux-settings.php:392
+msgid "Logo Center"
+msgstr ""
+
+#: inc/redux-settings.php:396
+msgid "Logo Right"
+msgstr ""
+
+#: inc/redux-settings.php:429
+msgid "Background Color For Light"
+msgstr ""
+
+#: inc/redux-settings.php:437
+msgid "Background Color For Dark"
+msgstr ""
+
+#: inc/redux-settings.php:445
+msgid "Text Color For Light"
+msgstr ""
+
+#: inc/redux-settings.php:453
+msgid "Text Color For Dark"
+msgstr ""
+
+#: inc/redux-settings.php:461
+msgid "Navigation Options"
+msgstr ""
+
+#: inc/redux-settings.php:482
+msgid "FullScreen"
+msgstr ""
+
+#: inc/redux-settings.php:491
+msgid "Navigation Button Style"
+msgstr ""
+
+#: inc/redux-settings.php:493
+msgid "Butter"
+msgstr ""
+
+#: inc/redux-settings.php:494
+msgid "With Label"
+msgstr ""
+
+#: inc/redux-settings.php:530
+msgid "Typography"
+msgstr ""
+
+#: inc/redux-settings.php:538
+msgid "Body"
+msgstr ""
+
+#: inc/redux-settings.php:549
+msgid "H1"
+msgstr ""
+
+#: inc/redux-settings.php:560
+msgid "H2"
+msgstr ""
+
+#: inc/redux-settings.php:571
+msgid "H3"
+msgstr ""
+
+#: inc/redux-settings.php:582
+msgid "H4"
+msgstr ""
+
+#: inc/redux-settings.php:593
+msgid "H5"
+msgstr ""
+
+#: inc/redux-settings.php:604
+msgid "H6"
+msgstr ""
+
+#: inc/redux-settings.php:616
+msgid "Theme Fonts"
+msgstr ""
+
+#: inc/redux-settings.php:622
+msgid "Fonts"
+msgstr ""
+
+#: inc/redux-settings.php:638
+msgid "Icon Fonts"
+msgstr ""
+
+#: inc/redux-settings.php:645
+msgid "Upload Custom Icon Fonts"
+msgstr ""
+
+#: inc/redux-settings.php:651
+msgid "Social Links"
+msgstr ""
+
+#: inc/redux-settings.php:659
+msgid "Open Link In"
+msgstr ""
+
+#: inc/redux-settings.php:661
+msgid "Current Tab"
+msgstr ""
+
+#: inc/redux-settings.php:662
+msgid "New Tab"
+msgstr ""
+
+#: inc/redux-settings.php:669
+msgid "Social Button 1"
+msgstr ""
+
+#: inc/redux-settings.php:674 inc/redux-settings.php:691
+#: inc/redux-settings.php:708 inc/redux-settings.php:725
+#: inc/redux-settings.php:742 inc/redux-settings.php:759
+#: inc/redux-settings.php:776
+msgid "Social Icon"
+msgstr ""
+
+#: inc/redux-settings.php:681 inc/redux-settings.php:698
+#: inc/redux-settings.php:715 inc/redux-settings.php:732
+#: inc/redux-settings.php:749 inc/redux-settings.php:766
+#: inc/redux-settings.php:783
+msgid "Link"
+msgstr ""
+
+#: inc/redux-settings.php:686
+msgid "Social Button 2"
+msgstr ""
+
+#: inc/redux-settings.php:703
+msgid "Social Button 3"
+msgstr ""
+
+#: inc/redux-settings.php:720
+msgid "Social Button 4"
+msgstr ""
+
+#: inc/redux-settings.php:737
+msgid "Social Button 5"
+msgstr ""
+
+#: inc/redux-settings.php:754
+msgid "Social Button 6"
+msgstr ""
+
+#: inc/redux-settings.php:771
+msgid "Social Button 7"
+msgstr ""
+
+#: inc/redux-settings.php:807
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/redux-settings.php:817
+msgid "Logo Image - light"
+msgstr ""
+
+#: inc/redux-settings.php:818
+msgid "Choose a logo image to display for \"Light\" header skin"
+msgstr ""
+
+#: inc/redux-settings.php:833
+msgid "Logo Image - Dark"
+msgstr ""
+
+#: inc/redux-settings.php:834
+msgid "Choose a logo image to display for \"Dark\" header skin"
+msgstr ""
+
+#: inc/redux-settings.php:851
+msgid "Logo Size"
+msgstr ""
+
+#: inc/redux-settings.php:869
+msgid "Scroll Top"
+msgstr ""
+
+#: inc/redux-settings.php:879
+msgid "Copyright"
+msgstr ""
+
+#: inc/redux-settings.php:884
+msgid "Right Text"
+msgstr ""
+
+#: inc/redux-settings.php:889
+msgid "Footer Links"
+msgstr ""
+
+#: inc/redux-settings.php:890
+msgid "New per row.<br>#||Link Label"
+msgstr ""
+
+#: inc/redux-settings.php:895
+msgid "Cols Size"
+msgstr ""
+
+#: inc/redux-settings.php:896
+msgid ""
+"<b>Example:</b> col-12 col-sm-6 col-md-4 col-lg-3<br><a href=\"https: //"
+"getbootstrap.com/docs/4.3/layout/grid/?#grid-options\" target=\"_blank"
+"\">Bootstrap Grid Instructions</a><br>\n"
+"      If you want hide column enter <b>hide</b>"
+msgstr ""
+
+#: inc/redux-settings.php:902
+msgid "Col 1"
+msgstr ""
+
+#: inc/redux-settings.php:908 inc/redux-settings.php:1147
+msgid "Col 2"
+msgstr ""
+
+#: inc/redux-settings.php:914 inc/redux-settings.php:1148
+msgid "Col 3"
+msgstr ""
+
+#: inc/redux-settings.php:920 inc/redux-settings.php:1149
+msgid "Col 4"
+msgstr ""
+
+#: inc/redux-settings.php:927
+msgid "404 Page"
+msgstr ""
+
+#: inc/redux-settings.php:935 inc/redux-settings.php:1002
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/redux-settings.php:945
+msgid "Background Color"
+msgstr ""
+
+#: inc/redux-settings.php:953 inc/redux-settings.php:1012
+msgid "Background Image"
+msgstr ""
+
+#: inc/redux-settings.php:967 inc/redux-settings.php:1039
+msgid "Sub Heading"
+msgstr ""
+
+#: inc/redux-settings.php:973 inc/redux-settings.php:1045
+msgid "Heading"
+msgstr ""
+
+#: inc/redux-settings.php:979
+msgid "Text"
+msgstr ""
+
+#: inc/redux-settings.php:985 inc/redux-settings.php:1026
+msgid "Text Color"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: inc/redux-settings.php:994
+msgid "Coming Soon Page"
+msgstr ""
+
+#: inc/redux-settings.php:1034
+msgid "Subscribe Form ShortCode"
+msgstr ""
+
+#: inc/redux-settings.php:1052
+msgid "Portfolio Project Page"
+msgstr ""
+
+#: inc/redux-settings.php:1060
+msgid "Project Image"
+msgstr ""
+
+#: inc/redux-settings.php:1071
+msgid "Style Project Page"
+msgstr ""
+
+#: inc/redux-settings.php:1083 inc/redux-settings.php:1145
+msgid "Cols Count"
+msgstr ""
+
+#: inc/redux-settings.php:1106
+msgid "Categories"
+msgstr ""
+
+#: inc/redux-settings.php:1117
+msgid "Project Items"
+msgstr ""
+
+#: inc/redux-settings.php:1125
+msgid "Open Project In Popup"
+msgstr ""
+
+#: inc/redux-settings.php:1135
+msgid "Portfolio Style"
+msgstr ""
+
+#: inc/redux-settings.php:1157
+msgid "Portfolio LightBox"
+msgstr ""
+
+#: inc/redux-settings.php:1175
+msgid "Toggle Full Screen"
+msgstr ""
+
+#: inc/redux-settings.php:1185
+msgid "Share"
+msgstr ""
+
+#: inc/redux-settings.php:1195
+msgid "Download Link"
+msgstr ""
+
+#: inc/redux-settings.php:1206
+msgid "Blog post"
+msgstr ""
+
+#: inc/redux-settings.php:1214
+msgid "Blog Feature Image"
+msgstr ""
+
+#: inc/redux-settings.php:1224
+msgid "Blog Feature Image Style"
+msgstr ""
+
+#: inc/redux-settings.php:1234
+msgid "Show Date"
+msgstr ""
+
+#: inc/redux-settings.php:1244
+msgid "Show Like"
+msgstr ""
+
+#: inc/redux-settings.php:1254
+msgid "Show Comments"
+msgstr ""
+
+#: inc/redux-settings.php:1264
+msgid "Show Categories"
+msgstr ""
+
+#: inc/redux-settings.php:1274
+msgid "Show Sidebar"
+msgstr ""
+
+#: inc/redux-settings.php:1285
+msgid "Translations"
+msgstr ""
+
+#: inc/redux-settings.php:1339
+msgid "Custom code & analytics & Map API"
+msgstr ""
+
+#: inc/redux-settings.php:1347
+msgid "Code in <head>"
+msgstr ""
+
+#: inc/redux-settings.php:1352
+msgid "Code before </body> tag"
+msgstr ""
+
+#: inc/redux-settings.php:1357
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/redux-settings.php:1358
+msgid ""
+"Create an application in <a href=\"https://console.developers.google.com/"
+"flows/enableapi?apiid=places_backend,maps_backend,geocoding_backend,"
+"directions_backend,distance_matrix_backend,"
+"elevation_backend&keyType=CLIENT_SIDE&reusekey=true\" target=\"_blank"
+"\">Google Console</a> and add the Key here."
+msgstr ""
+
+#: inc/woocommerce.php:30 woocommerce/content-product.php:52
+msgid "Add to cart"
+msgstr ""
+
+#: inc/woocommerce.php:49 woocommerce/single-product/product-image.php:50
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce.php:79
+msgid "Placeholder"
+msgstr ""
+
+#: inc/woocommerce.php:147
+msgid "View cart"
+msgstr ""
+
+#: inc/woocommerce.php:152
+msgid "Checkout"
+msgstr ""
+
+#: searchform.php:2
+msgid "Type and hit enter"
+msgstr ""
+
+#: template-parts/content-none.php:9
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:393
+#: tgm/class-tgm-plugin-activation.php:911
+#: tgm/class-tgm-plugin-activation.php:2617
+#: tgm/class-tgm-plugin-activation.php:3664
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:394
+#: tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:395
+#: tgm/class-tgm-plugin-activation.php:3036
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:598
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:599
+msgid "Update Required"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:716
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1018
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1018
+#: tgm/class-tgm-plugin-activation.php:1021
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1021
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1205
+#: tgm/class-tgm-plugin-activation.php:3032
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: tgm/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2357
+msgid "Required"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2360
+msgid "Recommended"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2376
+msgid "WordPress Repository"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2379
+msgid "External Source"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2382
+msgid "Pre-Packaged"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2399
+msgid "Not Installed"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2403
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2405
+msgid "Active"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2411
+msgid "Required Update not Available"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2414
+msgid "Requires Update"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2417
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: tgm/class-tgm-plugin-activation.php:2426
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2472
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2476
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2480
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:2566
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2574
+msgid "Installed version:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2582
+msgid "Minimum required version:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2594
+msgid "Available version:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2617
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2631
+msgid "Plugin"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2632
+msgid "Source"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2633
+msgid "Type"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2637
+msgid "Version"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2638
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2687
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2692
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2698
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2768
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2801
+msgid "Install"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2807
+#: woocommerce/cart/shipping-calculator.php:86
+msgid "Update"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2810
+msgid "Activate"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2841
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2843
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2884
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2886
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2992
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3018
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3242
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3582
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: tgm/class-tgm-plugin-activation.php:3585
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3591
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3593
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3593
+#: tgm/class-tgm-plugin-activation.php:3601
+msgid "Show Details"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3593
+#: tgm/class-tgm-plugin-activation.php:3601
+msgid "Hide Details"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3594
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3599
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3602
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3604
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm/tgm.php:20
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: tgm/tgm.php:27
+msgid "PT Plaxer Addons"
+msgstr ""
+
+#: tgm/tgm.php:34
+msgid "TinyMCE Advanced"
+msgstr ""
+
+#: tgm/tgm.php:39
+msgid "Contact Form 7"
+msgstr ""
+
+#: tgm/tgm.php:44
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: tgm/tgm.php:49
+msgid "Black Studio TinyMCE Widget"
+msgstr ""
+
+#: tgm/tgm.php:54
+msgid "WP Retina 2x"
+msgstr ""
+
+#: tgm/tgm.php:58
+msgid "Redux Framework"
+msgstr ""
+
+#: tgm/tgm.php:63
+msgid "Unyson"
+msgstr ""
+
+#: tgm/tgm.php:68
+msgid "GDPR Cookie Consent"
+msgstr ""
+
+#: tgm/tgm.php:72
+msgid "WP User Avatar"
+msgstr ""
+
+#: tgm/tgm.php:76
+msgid "Woocommerce"
+msgstr ""
+
+#: tgm/tgm.php:80
+msgid "Mailchimp for WordPress"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+#: woocommerce/cart/mini-cart.php:82 woocommerce/checkout/review-order.php:62
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+#: woocommerce/cart/cart.php:101 woocommerce/checkout/review-order.php:28
+#: woocommerce/checkout/review-order.php:109
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:40 woocommerce/checkout/review-order.php:27
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:47 woocommerce/cart/mini-cart.php:66
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:70
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:77
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:83
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+msgid "Enter Coupon..."
+msgstr ""
+
+#: woocommerce/cart/cart.php:128
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:90
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:55
+#: woocommerce/cart/shipping-calculator.php:67
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:56
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:62
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:50
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:63
+#: woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:41
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:27
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:40
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:94
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:58
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:71
+#: woocommerce/myaccount/form-login.php:104
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:80
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:87
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:32
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:51
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:57
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details-customer.php:53
+#: woocommerce/single-product/meta.php:29
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:25
+msgid "Downloads"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:57
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:63
+msgid "Never"
+msgstr ""
+
+#: woocommerce/order/tracking.php:27
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/order/tracking.php:35
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/order/tracking.php:41
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:50
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:47
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:29
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:32
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:28
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:28
+msgid "You May Also Like"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Plaxer"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://promo-theme.com/plaxer/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plaxer is the High-powered WordPress Theme for Gaming, eSports, Streaming "
+"and etc. Everyone can find a suitable page for itself. We have prepared the "
+"big set of components and styles for your awesome website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Promo Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/ypromo"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Landing page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page with sidebar"
+msgstr ""
