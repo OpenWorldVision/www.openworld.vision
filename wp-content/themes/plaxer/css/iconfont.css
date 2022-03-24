@@ -1,7 +1,11 @@
 @font-face {
   font-family: "base-icon";
   src: url("../fonts/base-icon.eot");
-  src: url("../fonts/base-icon.eot?#iefix") format("eot"), url("../fonts/base-icon.woff2") format("woff2"), url("../fonts/base-icon.woff") format("woff"), url("../fonts/base-icon.ttf") format("truetype"), url("../fonts/base-icon.svg#base-icon") format("svg");
+  src: url("../fonts/base-icon.eot?#iefix") format("eot"),
+    url("../fonts/base-icon.woff2") format("woff2"),
+    url("../fonts/base-icon.woff") format("woff"),
+    url("../fonts/base-icon.ttf") format("truetype"),
+    url("../fonts/base-icon.svg#base-icon") format("svg");
 }
 
 [class*="base-icon-"],
@@ -321,7 +325,11 @@
 @font-face {
   font-family: "social-icon";
   src: url("../fonts/social-icon.eot");
-  src: url("../fonts/social-icon.eot?#iefix") format("eot"), url("../fonts/social-icon.woff2") format("woff2"), url("../fonts/social-icon.woff") format("woff"), url("../fonts/social-icon.ttf") format("truetype"), url("../fonts/social-icon.svg#social-icon") format("svg");
+  src: url("../fonts/social-icon.eot?#iefix") format("eot"),
+    url("../fonts/social-icon.woff2") format("woff2"),
+    url("../fonts/social-icon.woff") format("woff"),
+    url("../fonts/social-icon.ttf") format("truetype"),
+    url("../fonts/social-icon.svg#social-icon") format("svg");
 }
 
 [class*="social-icon-"],
@@ -1159,17 +1167,21 @@
 }
 
 @font-face {
-  font-family: 'game-logo';
+  font-family: "game-logo";
   src: url("../fonts/game-logo.eot?h43e0h");
-  src: url("../fonts/game-logo.eot?h43e0h#iefix") format("embedded-opentype"), url("../fonts/game-logo.ttf?h43e0h") format("truetype"), url("../fonts/game-logo.woff?h43e0h") format("woff"), url("../fonts/game-logo.svg?h43e0h#game-logo") format("svg");
+  src: url("../fonts/game-logo.eot?h43e0h#iefix") format("embedded-opentype"),
+    url("../fonts/game-logo.ttf?h43e0h") format("truetype"),
+    url("../fonts/game-logo.woff?h43e0h") format("woff"),
+    url("../fonts/game-logo.svg?h43e0h#game-logo") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="game-logo-"], [class*=" game-logo-"] {
+[class^="game-logo-"],
+[class*=" game-logo-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'game-logo' !important;
+  font-family: "game-logo" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;

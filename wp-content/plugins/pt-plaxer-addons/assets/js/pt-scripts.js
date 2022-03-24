@@ -213,7 +213,7 @@ jQuery(document).ready(function ($) {
       });
       $video.parents('.banner-area').removeClass('plaing-video');
     });
-  
+
   jQuery('.banner-s-buttons').on('click', 'div.button', function() {
     jQuery(this).toggleClass('active').siblings().removeClass('active');
     jQuery(this).parents('.banner-area').find('.banner-c-block[data-type="'+jQuery(this).attr('data-type')+'"]').toggleClass('active').siblings('.banner-c-block').removeClass('active');
@@ -361,7 +361,7 @@ jQuery(document).ready(function ($) {
       }
     }
   });
-  
+
   jQuery('.heading-block .words').each(function () {
     var typed2 = new Typed(this, {
       strings: jQuery(this).attr('data-array').split(','),
@@ -521,7 +521,7 @@ jQuery(document).ready(function ($) {
         if(typeof array[index].cat === undefined || typeof array[index].cat === 'undefined') continue;
 
         for (let index2 = 0; index2 < array[index].cat.length; index2++) {
-          
+
           if (array[index].cat[index2] == slug) {
             flag = true;
             break;
@@ -568,7 +568,7 @@ jQuery(document).ready(function ($) {
         var array = JSON.parse($button.attr('data-array')),
           atts = JSON.parse($button.attr('data-atts')),
           load_items = array.slice(0, count),
-          filter_value = '*';
+          filter_value = 'category-phase1';
 
         if ($filter.length > 0) {
           var filter_value = $filter.find('.current').attr('data-filter'),
