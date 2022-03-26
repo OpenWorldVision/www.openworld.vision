@@ -2994,17 +2994,6 @@ h6,
   min-height: 60px;
 }
 
-.phase {
-  width: 100%;
-}
-
-.milestone span {
-  font-size: 35px;
-  font-weight: 700;
-  text-align: center;
-  width: 100%;
-}
-
 @keyframes marquee {
   0% {
     transform: translateX(0);
@@ -3021,6 +3010,204 @@ h6,
   }
 }
 
+.phase {
+  width: 100%;
+}
+
+.milestone span {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  padding-top: 100px;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+}
+.footer .footer-logo {
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+.footer .social-links {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+.footer .social-links ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+.footer .social-links ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 24px;
+  transition: all 0.3s ease-in;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.footer .social-links ul li a:hover {
+  background: #f7b230;
+  color: #fff;
+}
+.footer .footer-menu {
+  margin-top: 115px;
+  display: block;
+  padding-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer .footer-menu ul li {
+  display: inline-block;
+  margin-right: 70px;
+  position: relative;
+}
+.footer .footer-menu ul li:last-child {
+  margin-right: 0px;
+}
+.footer .footer-menu ul li:last-child::after {
+  display: none;
+}
+.footer .footer-menu ul li::after {
+  position: absolute;
+  content: "";
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 2px;
+  background: #000;
+}
+.footer .footer-menu ul li a {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #d2d5fc;
+}
+.footer .copy-bg {
+  padding: 22px 15px 10px;
+  text-align: center;
+}
+.footer .copy-bg p {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d2d5fc;
+  font-weight: 600;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-image: linear-gradient(90deg, #7464fc 0%, #eb4f84 100%);
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li time {
+  font-weight: 700;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background-image: linear-gradient(90deg, #eb4f84 0%, #7464fc 100%);
+  border-radius: 8px;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #eb4f84 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #7464fc;
+}
+
+.timeline ul li::after {
+  background: #fff;
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background-image: linear-gradient(90deg, #7464fc 0%, #eb4f84 100%);
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
+}
+
 @media (min-width: 991px) {
   .marquee-wrapper:hover .marquee-list {
     animation-play-state: paused;
@@ -3034,11 +3221,40 @@ h6,
   }
 }
 
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #f45b69 transparent transparent;
+  }
+}
+
 @media (max-width: 767px) {
   .marquee-item {
     padding: 20px 20px;
     margin: 0 10px;
     box-sizing: content-box;
     width: 151px;
+  }
+
+  .footer .footer-menu ul li {
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .footer .footer-menu ul li::after {
+    display: none;
   }
 }
