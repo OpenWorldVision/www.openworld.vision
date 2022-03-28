@@ -224,7 +224,7 @@ jQuery(document).ready(function () {
 
     jQuery('.video-block').each(function() {
       if(jQuery(this).next('.video-block-o').length == 0) return false;
-      
+
       var $this = jQuery(this),
       o_left = $this.next('.video-block-o').offset().left,
       width = $this.next('.video-block-o').width();
@@ -271,7 +271,7 @@ jQuery(document).ready(function () {
       jQuery(this).parent().prev().removeClass('current hidden').parent().siblings().removeClass('hidden');
     });
   });
-  
+
 
   /* Scroll Down Arrow */
 

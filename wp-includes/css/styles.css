@@ -1129,6 +1129,14 @@
     > .wp-block-column:not(:last-child) {
     margin-bottom: 0;
   }
+
+  .backersAndPartners {
+    margin-top: 150px;
+  }
+}
+
+.backersAndPartners {
+  margin-top: 80px;
 }
 
 .wp-block-columns[class*="fullwidth-cols"].is-not-stacked-on-mobile
@@ -2889,7 +2897,7 @@ body {
 }
 .site-header .site-logo,
 .site-header .site-logo a {
-  width: 280px;
+  width: 200px;
 }
 
 .wpb_animate_when_almost_visible {
@@ -2968,9 +2976,9 @@ h6,
 
 .marquee-item {
   border-radius: 30px;
-  border-color: #fff;
+  border-color: #898786;
   border-style: solid;
-  border-width: 3px;
+  border-width: 2px;
   padding: 20px 40px;
   margin: 0 20px;
   will-change: transform, box-shadow;
@@ -2981,7 +2989,7 @@ h6,
   justify-content: center;
   text-align: center;
   width: 260px;
-  background-color: #101010;
+  background-color: #34314c;
 }
 
 .bnp-logo {
@@ -3058,7 +3066,7 @@ h6,
   text-decoration: none;
 }
 .footer .social-links ul li a:hover {
-  background: #f7b230;
+  background: #eb5458;
   color: #fff;
 }
 .footer .footer-menu {
@@ -3090,10 +3098,10 @@ h6,
   background: #000;
 }
 .footer .footer-menu ul li a {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 28px;
   font-weight: 600;
-  color: #d2d5fc;
+  color: #fff;
 }
 .footer .copy-bg {
   padding: 22px 15px 10px;
@@ -3101,9 +3109,9 @@ h6,
 }
 .footer .copy-bg p {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16.67px;
   line-height: 28px;
-  color: #d2d5fc;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -3214,7 +3222,7 @@ h6,
   }
 
   .marquee-item:hover {
-    box-shadow: inset 0px 0px 12px 7px #fea036;
+    background-color: #eb5458;
     transform: translateY(-5px);
     will-change: transform, box-shadow;
     transition: all 0.5s;
@@ -3256,5 +3264,13 @@ h6,
 
   .footer .footer-menu ul li::after {
     display: none;
+  }
+
+  .footer .footer-menu ul li a {
+    font-size: 18px;
+  }
+
+  .footer .copy-bg p {
+    font-size: 12px;
   }
 }
