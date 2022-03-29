@@ -3355,6 +3355,7 @@ body .dark-scheme .accordion-block .accordion-item {
   padding: 13px 15px;
   background: rgba(9, 6, 17, 0.5);
   font-size: 15px;
+  display: none;
 }
 
 .tournament .bottom {
@@ -3387,6 +3388,7 @@ body .dark-scheme .accordion-block .accordion-item {
   position: absolute;
   bottom: 0;
   right: 0;
+  display: none;
 }
 
 @media (max-width: 575.98px) {
