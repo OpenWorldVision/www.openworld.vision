@@ -3273,4 +3273,8 @@ h6,
   .footer .copy-bg p {
     font-size: 12px;
   }
+  .bnp-logo.owl {
+    min-width: 140px;
+    min-height: 51px;
+  }
 }
