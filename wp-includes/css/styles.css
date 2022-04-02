@@ -3030,10 +3030,9 @@ h6,
 }
 
 .footer {
-  padding-top: 100px;
   overflow: hidden;
   position: relative;
-  background-color: #000;
+  background-color: #130e0b;
 }
 .footer .footer-logo {
   margin-top: -10px;
