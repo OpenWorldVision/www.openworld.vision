@@ -1409,6 +1409,12 @@
   }
 }
 
+@media (max-height: 375px) {
+  .banner-area .social-links {
+    display: none;
+  }
+}
+
 .banner-area.bsl-right .social-links {
   left: auto;
   right: 28px;
@@ -4641,5 +4647,15 @@ body .dark-scheme .accordion-block .accordion-item {
   .site-header .navigation .menu .children {
     left: 0 !important;
     right: 0 !important;
+  }
+}
+
+@media (max-height: 768px) {
+  .num-box-item .num  {
+    font-size: 26px
+  }
+
+  .bg-overlay .image {
+    background-size: contain;
   }
 }

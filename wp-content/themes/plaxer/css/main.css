@@ -9876,3 +9876,30 @@ body .dark-scheme nav.woocommerce-pagination ul li a:focus {
 .footer .social-links ul li a:hover #telegram-announcement {
   color: #eb5458
 }
+
+@media (min-width: 769px) {
+  .heading-block.tal.with-decor-block h {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media (max-height: 767px) {
+  .heading-block.tal.with-decor-block {
+    margin-top: 30px !important;
+  }
+
+  .heading-block.tal.with-decor-block p {
+    font-size: 1.4rem !important;
+  }
+
+  .heading-block .h {
+    font-size: 36px !important;
+  }
+
+  .game-experience-block p {
+    font-size: 1rem !important;
+  }
+  .footer .footer-menu ul li a {
+    font-size: 18px;
+  }
+}
