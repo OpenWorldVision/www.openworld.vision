@@ -6608,7 +6608,6 @@ body .dark-scheme .scroll-up-arrow > span > span:before {
   align-items: center;
   font-size: 20px;
   font-weight: 700;
-  text-transform: capitalize;
   pointer-events: all;
   width: 189px;
   min-height: 45px;
@@ -6617,6 +6616,11 @@ body .dark-scheme .scroll-up-arrow > span > span:before {
 .site-logo a {
   position: relative;
   display: block;
+}
+
+.site-logo a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .site-logo.dark {
@@ -6934,7 +6938,8 @@ body .dark-scheme .social-links-circle a:hover {
 }
 
 .heading-block.tal.with-decor-block p {
-  margin-top: 1.75rem;
+  /* margin-top: 1.75rem; */
+  padding-top: 1.75rem;
   font-size: 2.4rem;
 }
 
@@ -9881,25 +9886,48 @@ body .dark-scheme nav.woocommerce-pagination ul li a:focus {
   background-position: bottom center;
 }
 
-.logo-mobile {
-  display: none  !important;
+.heading-block-banner {
+  position: absolute;
+  top: 15%;
+  font-size: 2.4rem;
 }
 
-.logo-desktop {
-  display: block !important;
+@media (max-width: 1024px) {
+  .site-logo .logo-with-text {
+    width: 35px;
+  }
+
+  .site-logo h2 {
+    font-size: 27px !important;
+  }
+
+  .heading-block-banner p {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-block-banner p {
+    font-size: 1.2rem !important;
+    padding: 0 10px;
+  }
+
+  .heading-block-banner {
+    top: 12%;
+  }
 }
 
 @media (max-height: 767px) and (max-width: 1024px) {
-  .heading-block.tal.with-decor-block {
-    margin-top: 30px !important;
-  }
-
-  .heading-block.tal.with-decor-block p {
+  .heading-block-banner p {
     font-size: 1.2rem !important;
   }
 
   .heading-block .h {
-    font-size: 36px !important;
+    font-size: 36px;
+  }
+
+  .site-logo h2 {
+    font-size: 27px !important;
   }
 
   .game-experience-block p {
@@ -9908,19 +9936,8 @@ body .dark-scheme nav.woocommerce-pagination ul li a:focus {
   .footer .footer-menu ul li a {
     font-size: 18px;
   }
-}
 
-@media (min-width: 769px) {
-  .heading-block.tal.with-decor-block h {
-    font-size: 1.8rem !important;
-  }
-}
-
-@media (max-width: 1024px) {
-  .logo-desktop {
-    display: none  !important;
-  }
-  .logo-mobile {
-    display: block  !important;
+  .heading-block-banner {
+    top: 25%;
   }
 }
