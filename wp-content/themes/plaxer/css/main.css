@@ -6995,7 +6995,6 @@ body .dark-scheme .social-links-circle a:hover {
 }
 
 .navigation-hover-style1 .navigation .menu li.current-menu-item > a span:before,
-.navigation-hover-style1 .navigation .menu li:hover > a span:before,
 .navigation-hover-style1
   .navigation
   .menu
@@ -7016,6 +7015,12 @@ body .dark-scheme .social-links-circle a:hover {
   > a
   span:before {
   width: 100%;
+}
+
+@media (min-width: 1025px) {
+  .navigation-hover-style1 .navigation .menu li:hover > a span:before {
+    width: 100%;
+  }
 }
 
 .navigation-hover-style2 .navigation .menu li.current-menu-item > a span:before,
