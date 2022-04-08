@@ -1140,7 +1140,7 @@ body.is-fullscreen-mode .interface-interface-skeleton {
     .components-editor-notices__snackbar {
     left: 190px;
   }
-  .bnp-logo.owl {
+  .bnp-logo.resize {
     min-width: 152px;
     min-height: 51px;
   }

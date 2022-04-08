@@ -2962,7 +2962,7 @@ h6,
 }
 
 .marquee-content {
-  width: 264%;
+  width: 290.4%;
   display: flex;
 }
 
@@ -2997,7 +2997,7 @@ h6,
   max-height: 90px;
 }
 
-.bnp-logo.owl {
+.bnp-logo.resize {
   min-width: 210px;
   min-height: 60px;
 }
@@ -3014,7 +3014,7 @@ h6,
 
 @media (max-width: 991px) {
   .marquee-content {
-    width: 528%;
+    width: 580.8%;
   }
 }
 
@@ -3272,7 +3272,7 @@ h6,
   .footer .copy-bg p {
     font-size: 12px;
   }
-  .bnp-logo.owl {
+  .bnp-logo.resize {
     min-width: 140px;
     min-height: 51px;
   }
