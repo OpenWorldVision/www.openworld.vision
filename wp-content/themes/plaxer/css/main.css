@@ -4997,7 +4997,8 @@ blockquote:before,
   color: transparent;
 }
 
-.social-links a, .social-links a:hover {
+.social-links a,
+.social-links a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -9679,22 +9680,12 @@ body .dark-scheme nav.woocommerce-pagination ul li a:focus {
 .banner-area .banner-item {
   position: relative;
   overflow: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   z-index: 1;
-}
-
-.banner-area .banner-item .container,
-.banner-area .banner-item .container-fluid {
-  pointer-events: none;
 }
 
 .banner-area .banner-item .container > .row,
 .banner-area .banner-item .container-fluid > .row {
   padding: 40px 0;
-  pointer-events: none;
   align-items: center;
 }
 
@@ -9879,7 +9870,7 @@ body .dark-scheme nav.woocommerce-pagination ul li a:focus {
 }
 
 .footer .social-links ul li a:hover #telegram-announcement {
-  color: #eb5458
+  color: #eb5458;
 }
 
 .banner-item .bg-overlay .image {
