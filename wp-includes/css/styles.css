@@ -2962,7 +2962,7 @@ h6,
 }
 
 .marquee-content {
-  width: calc(26.4% * 16);
+  width: calc(26.4% * 19);
   display: flex;
 }
 
@@ -3014,7 +3014,7 @@ h6,
 
 @media (max-width: 991px) {
   .marquee-content {
-    width: calc(52.8% * 16);
+    width: calc(52.8% * 19);
   }
 }
 
