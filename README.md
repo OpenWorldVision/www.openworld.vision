@@ -1,2 +1,2 @@
 # OpenWorld.landingpage
-[www.openworld.vision](https://www.openworld.vision)
+[openworld.vision](https://openworld.vision)
