@@ -84,6 +84,22 @@
                   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-53">
                   <a href="http://wiki.openworld.vision/" target="_blank"><span>Wiki</span></a>
                 </li>
+                <li id="menu-item-53"
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-53">
+                  <div class="matches-block filter-blockend-0 m-0 button-redirect-game">
+                    <div class="filter-buttons tar m-0">
+                      <div class="wrap justify-content-center">
+                        <a id="link-game" target="_blank" rel="noopener noreferrer">
+                          <button class="button current m-0 p-0 px-3" data-filter=".category-phase1"
+                            data-magic-cursor="link-small">
+                            <span style="font-weight: bold; font-size: 11px;">Play Now</span>
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
               </ul>
             </nav>
             <div class="nav-butter visible_menu" data-magic-cursor="link-small">
@@ -132,12 +148,24 @@
                       </div>
                       <div class="container position-relative">
                         <div class="row full-height d-flex justify-content-center align-items-center">
-                          <div class=" heading-block-banner">
+                          <div class="heading-block-banner d-flex justify-content-start align-items-start flex-column">
                             <p>
                               is a blockchain enabled open metaverse with a sound circular economy based on real
                               monetary flow. Our vision is to open a new dimension for everyone to connect, play,
                               express themselves, and find happiness.
                             </p>
+                            <div class="matches-block filter-blockend-0 m-0 mb-6 button-redirect-game-banner">
+                              <div class="filter-buttons tar m-0">
+                                <div class="wrap justify-content-center">
+                                  <a href="https://dev.openworld.vision/" target="_blank" rel="noopener noreferrer">
+                                    <button class="button current m-0" data-filter=".category-phase1"
+                                      data-magic-cursor="link-small">
+                                      <span style="font-weight: bold; font-size: 25px;">Play Now</span>
+                                    </button>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -982,6 +1010,34 @@
   <script type="text/html" id="wpb-modifications"></script>
   <script src="./wp-includes/js/timeline.js"></script>
   <style id="pt-inline-inline-css">
+    .button-redirect-game a,
+    .button-redirect-game-banner a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .button-redirect-game button {
+      padding: 0;
+    }
+
+    @media (max-width: 991.98px) {
+      .button-redirect-game {
+        padding: 10px 25px;
+      }
+    }
+
+    .button-redirect-game-banner {
+      margin-top: 30px !important;
+    }
+
+    .button-redirect-game-banner button {
+      padding: 10px 14px !important;
+    }
+
+    .button-redirect-game-banner span{
+      font-size: 20px !important;
+    }
+
     .vc_column_container-6236e767119c4 {
       background-size: cover !important;
       background-position: 50% 50% !important;
@@ -1297,6 +1353,8 @@
       $road_map_filter[1].click();
       $road_map_filter[0].click();
     });
+  </script>
+  <script>
   </script>
 </body>
 
