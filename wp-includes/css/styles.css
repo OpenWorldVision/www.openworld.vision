@@ -3096,12 +3096,58 @@ h6,
   width: 2px;
   background: #000;
 }
-.footer .footer-menu ul li a {
+.footer .footer-menu ul li a,
+.footer-menu-drop-down span {
   font-size: 25px;
   line-height: 28px;
   font-weight: 600;
   color: #fff;
 }
+
+.footer-menu-drop-down {
+  position: relative;
+}
+
+.footer-menu-drop-down .drop-down-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border: 1px solid #fff;
+  background-color: #130e0b;
+  border-radius: 10px;
+  padding: 8px;
+  transform-origin: top center;
+  transform: translateY(-20%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.footer-menu-drop-down:hover .drop-down-list {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: all 0.5s !important;
+}
+
+.footer-menu-drop-down .drop-down-list li {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.footer-menu-drop-down .drop-down-list a {
+  font-size: 16px !important;
+  text-align: left !important;
+  display: block;
+  width: 100%;
+}
+
+.footer .footer-menu ul .footer-menu-drop-down span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .footer .copy-bg {
   padding: 22px 15px 10px;
   text-align: center;
@@ -3265,8 +3311,13 @@ h6,
     display: none;
   }
 
-  .footer .footer-menu ul li a {
+  .footer .footer-menu ul li a,
+  .footer-menu-drop-down span {
     font-size: 18px;
+  }
+
+  .footer-menu-drop-down .drop-down-list a {
+    font-size: 14px !important;
   }
 
   .footer .copy-bg p {
