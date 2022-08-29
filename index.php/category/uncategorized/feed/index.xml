@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Uncategorized &#8211; OpenWorld</title>
+	<title>Uncategorized Archives - OpenWorld</title>
 	<atom:link href="/index.php/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<link>/index.php/category/uncategorized/</link>
 	<description></description>
 	<lastBuildDate>Tue, 23 Aug 2022 02:04:12 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -22,8 +22,8 @@
 
 <image>
 	<url>/wp-content/uploads/2022/08/ow-siteicon.png</url>
-	<title>Uncategorized &#8211; OpenWorld</title>
-	<link>/</link>
+	<title>Uncategorized Archives - OpenWorld</title>
+	<link>/index.php/category/uncategorized/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
@@ -37,9 +37,12 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">http://ec2-13-214-163-137.ap-southeast-1.compute.amazonaws.com/?p=1</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it,...]]></description>
+					<description><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it,...</p>
+<p>The post <a rel="nofollow" href="/index.php/2022/08/23/hello-world/">Hello world!</a> appeared first on <a rel="nofollow" href="/">OpenWorld</a>.</p>
+]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>The post <a rel="nofollow" href="/index.php/2022/08/23/hello-world/">Hello world!</a> appeared first on <a rel="nofollow" href="/">OpenWorld</a>.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>/index.php/2022/08/23/hello-world/feed/</wfw:commentRss>
