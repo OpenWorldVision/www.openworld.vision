@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/08/ow-siteicon.png</url>
+	<url>/wp-content/uploads/2022/12/opw-icon-logo.svg</url>
 	<title>Uncategorized Archives - OpenWorld</title>
 	<link>/index.php/category/uncategorized/</link>
 	<width>32</width>
@@ -30,7 +30,7 @@
 	<item>
 		<title>Hello world!</title>
 		<link>/index.php/2022/08/23/hello-world/</link>
-					<comments>/index.php/2022/08/23/hello-world/#comments</comments>
+					<comments>/index.php/2022/08/23/hello-world/#respond</comments>
 		
 		<dc:creator><![CDATA[tam.nguyen]]></dc:creator>
 		<pubDate>Tue, 23 Aug 2022 02:04:12 +0000</pubDate>
@@ -46,7 +46,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>/index.php/2022/08/23/hello-world/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>0</slash:comments>
 		
 		
 			</item>
