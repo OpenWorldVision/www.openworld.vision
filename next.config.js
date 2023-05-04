@@ -10,7 +10,7 @@ const nextConfig = {
       beforeFiles: [
         {
           source: "/",
-          destination: "/wp/index.html",
+          destination: "/wp",
         },
       ],
     };
